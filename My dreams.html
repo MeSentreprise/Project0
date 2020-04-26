@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device_width, user-scalable=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>My dreams</title>
+    <nav>
+	<ul>
+        <li id="HOME"><a href="index.html">HOME</a></li>
+		<li><a>About Me</a></li>
+		<li><a href="My hobbies.html">My hobbies</a></li>
+		<li><a href="My dreams.html">My dreams</a></li>
+	</ul>
+    </nav>
+    <h1>My dreams</h1>
+    <style media="all">
+#HOME{
+    padding-right:20px;
+    background-color:transparent;
+}
+NAV UL LI{
+COLOR:white;
+display:inline-block;
+padding:10px;
+background-color:gray;
+}
+LI A:link{
+text-decoration:none;
+COLOR:white;
+font-color:white;
+}
+NAV{
+padding:20px;
+}
+NAV UL LI:hover{
+    background-color:white;
+    COLOR:black;
+}
+#HOME:hover{
+     COLOR:black;
+     background-color:transparent;
+}
+        h1{
+        padding-top:10px;
+        text-align:center;
+        font-family:Georgia;
+        color:darkgreen;
+        font-style:italic;
+        padding-bottom:10px;
+
+        }
+    </style>
+</head>
+<body>
+<div class="alert" role="alert">
+  <p class = "hy"></p>
+</div>
+<p class="histoire"></p>
+<img title="Arduino" class="Arduino" src="img\Arduino.jpg">
+<p class="légende">This is a Arduino Uno</p>
+<img class="Pygame" src="img\pygame.jpg">
+<p class="L">And the Pygame cross-platform for the Python script</p>
+<style type="text/css">
+.Pygame{
+padding-top:200px;
+}
+    .L{
+    padding-top:275px;
+    position:absolute;
+    right:5%;
+    font-weight:bold;
+    color:white;
+    font-size:25px;
+    }
+    img{
+    position:absolute;
+    left:25%;
+    }
+    .légende{
+    position:absolute;
+    right:25%;
+    padding-top:75px;
+    font-size:25px;
+    color:white;
+    font-weight:bold;
+    }
+    div{
+    background-color:red;
+    position:absolute;
+    left:40px;
+    width:230px;
+    height:70px;
+    }
+    .histoire{
+    color:white;
+    padding-left:30px;
+    }
+    @media (max-width:1000px){
+      div .hy::before{
+           content:"I can't tell you my dreams";
+      }
+      .histoire::before{
+      content:"Sorry"
+      }
+      .légende{
+      visibility:hidden;
+      }
+      .Arduino{
+      visibility:hidden;
+      }
+      .Pygame{
+      visibility:hidden;
+      }
+      .L{
+      visibility:hidden;
+      }
+    }
+    @media (min-width:1000px){
+        div .hy::before{
+           content:"You have a big screen";
+        }
+        div{
+        background-color:yellow;
+        }
+        .histoire::before{
+        content:"My favorite and capital dream is create a big corp. His name is S corp and his P.D.G is,of course ,me. I have a lot of ideas about this. Like a game created by Python uses Arduino to control the sprite. The Arduino controller is composed by two joysticks and a few buttons";
+        }
+    }
+    body{
+    background-color:black;
+    }
+</style>
+</body>
+</html>

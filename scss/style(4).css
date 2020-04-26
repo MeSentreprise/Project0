@@ -1,0 +1,46 @@
+
+H1, P {
+  text-align: center;
+  font-family: Calibri;
+  font-weight: bold;
+  color: green;
+  font-style: italic; }
+
+P {
+  color: white;
+  font-style: none;
+  font-weight: normal; }
+
+.container {
+  background-color: orange; }
+  .container .row {
+    background-color: orange; }
+    .container .row .col {
+      background-color: orange; }
+#HOME{
+    padding-right:20px;
+    background-color:transparent;
+}
+NAV UL LI{
+COLOR:white;
+display:inline-block;
+padding:10px;
+background-color:gray;
+}
+LI A:link{
+text-decoration:none;
+COLOR:white;
+font-color:white;
+}
+NAV{
+padding:0.125px;
+}
+NAV UL LI:hover{
+    background-color:white;
+    COLOR:black;
+}
+#HOME:hover{
+     COLOR:black;
+     background-color:transparent;
+}
+/*# sourceMappingURL=style(4).css.map */

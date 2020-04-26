@@ -1,0 +1,95 @@
+NAV UL LI
+{
+    COLOR: white;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px;
+    PADDING-LEFT: 10px;
+    DISPLAY: inline-block;
+    PADDING-RIGHT: 10px;
+    BACKGROUND-COLOR: gray;
+}
+LI A:link
+{
+    TEXT-DECORATION: none;
+    COLOR: white;
+    font-color: white;
+}
+NAV
+{
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+}
+NAV UL LI:hover
+{
+    COLOR: black;
+    BACKGROUND-COLOR: white
+}
+#HOME:hover
+{
+    COLOR: black;
+    BACKGROUND-COLOR: transparent;
+}
+#HOME
+{
+    PADDING-RIGHT: 20px;
+    BACKGROUND-COLOR: transparent;
+}
+BODY
+{
+    BACKGROUND-COLOR: black;
+}
+TABLE
+{
+    BORDER-TOP: white 1px solid;
+    FONT-FAMILY: Calibri;
+    BORDER-RIGHT: white 1px solid;
+    BORDER-COLLAPSE: collapse;
+    BORDER-BOTTOM: white 1px solid;
+    COLOR: white;
+    BORDER-LEFT: white 1px solid;
+}
+TH
+{
+    BORDER-TOP: white 1px solid;
+    FONT-FAMILY: Calibri;
+    BORDER-RIGHT: white 1px solid;
+    BORDER-COLLAPSE: collapse;
+    BORDER-BOTTOM: white 1px solid;
+    COLOR: white;
+    BORDER-LEFT: white 1px solid;
+}
+TD
+{
+    BORDER-TOP: white 1px solid;
+    FONT-FAMILY: Calibri;
+    BORDER-RIGHT: white 1px solid;
+    BORDER-COLLAPSE: collapse;
+    BORDER-BOTTOM: white 1px solid;
+    COLOR: white;
+    BORDER-LEFT: white 1px solid;
+}
+TABLE
+{
+    PADDING-TOP: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+P
+{
+    FONT-FAMILY: Arial;
+    COLOR: white;
+    font-size:15px;
+}
+H1
+{
+    FONT-FAMILY: Georgia;
+    COLOR: darkgreen;
+    FONT-STYLE: italic;
+    text-align:center;
+}
+#Photo{
+padding:30px;
+padding-left:25%;
+}

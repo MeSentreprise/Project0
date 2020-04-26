@@ -1,0 +1,63 @@
+BODY
+{
+    BACKGROUND-ATTACHMENT: scroll;
+    background-color:black;
+}
+H1
+{
+    FONT-FAMILY: Georgia;
+    COLOR: darkgreen;
+    FONT-STYLE: italic;
+    TEXT-ALIGN: center;
+}
+#Presentation P
+{
+    position:absolute;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    TEXT-ALIGN: center;
+    left:50%;
+    padding-right:25%;
+}
+img{
+    padding-left:20%;
+}
+OL LI
+{
+    FONT-FAMILY: Arial;
+    FONT-WEIGHT: bolder;
+    COLOR: silver;
+}
+#Presentation{padding-top: 10px;}
+P{
+    text-align:left; 
+    COLOR:white;
+    font-family: Arial;
+}
+#HOME{
+    padding-right:20px;
+    background-color:transparent;
+}
+NAV UL LI{
+COLOR:white;
+display:inline-block;
+padding:10px;
+background-color:gray;
+}
+LI A:link{
+text-decoration:none;
+COLOR:white;
+font-color:white;
+}
+NAV{
+padding:0.125px;
+}
+NAV UL LI:hover{
+    background-color:white;
+    COLOR:black;
+}
+#HOME:hover{
+     COLOR:black;
+     background-color:transparent;
+}
+

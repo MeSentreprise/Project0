@@ -1,0 +1,24 @@
+$a:center;
+$main:black;
+H1{
+	text-align:$a;
+	font-family:Calibri;
+	font-weight:bold;
+	color:green;
+	font-style:italic;
+}
+P{
+	@extend H1;
+	color:$main;
+	font-style:none;
+	font-weight:normal;
+}
+.container{
+	background-color:orange;
+	.row{
+		background-color:orange;
+		.col{
+			background-color:orange;
+		}
+	}
+}
